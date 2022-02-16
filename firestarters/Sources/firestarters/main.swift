@@ -9,7 +9,7 @@ class Firestarters: Suborbital.Runnable {
         else if(input=="Hoenn"){
         return "Your starter is Chimchar!\n\n"}
         else{
-        return "Region not listed ye!\n\n"}
+        return "Region not listed yet!\n\n"}
     }
 }
 
