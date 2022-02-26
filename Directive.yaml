@@ -25,3 +25,21 @@ handlers:
     method: POST
     steps:
       - fn: grassstarters
+
+  - type: request
+    resource: /getpoke
+    method: POST
+    steps:
+      - fn: pokeget-swift
+
+  - type: request
+    resource: /getpokerust
+    method: POST
+    steps:
+      - fn: pokeget
+
+  - type: request
+    resource: /postpoke
+    method: POST
+    steps:
+      - fn: pokepost-swift

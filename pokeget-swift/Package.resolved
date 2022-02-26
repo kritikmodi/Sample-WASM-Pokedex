@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Suborbital",
+        "repositoryURL": "https://github.com/suborbital/reactr.git",
+        "state": {
+          "branch": null,
+          "revision": "4f903efaaca00042d97133ad5a36e4775c62c0df",
+          "version": "0.14.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
