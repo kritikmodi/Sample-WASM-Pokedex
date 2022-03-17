@@ -45,7 +45,7 @@ handlers:
       - fn: pokepost-swift
 
   - type: request
-    resource: /getjs
+    resource: /catfact
     method: POST
     steps:
       - fn: newJS
