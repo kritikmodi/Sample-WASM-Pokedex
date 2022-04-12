@@ -6,7 +6,6 @@ identifier: com.suborbital.pokedex
 appVersion: v0.1.0
 atmoVersion: v0.4.2
 
-
 handlers:
   - type: request
     resource: /fire
@@ -48,4 +47,4 @@ handlers:
     resource: /catfact
     method: POST
     steps:
-      - fn: newJS
+      - fn: newJS  
